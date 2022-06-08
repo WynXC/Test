@@ -541,7 +541,7 @@
                                 disabled: j || R || !u,
                                 onClick: ae,
                                 variant: "containedSecondary",
-                                children: j ? "SOLD OUT" : u ? R ? Object(K.jsx)(O.a, {}) : "Mint now!" : Object(K.jsx)(g.a, {
+                                children: j ? "SOLD OUT" : u ? R ? Object(K.jsx)(O.a, {}) : "MINT" : Object(K.jsx)(g.a, {
                                     date: Q,
                                     onMount: function(e) {
                                         return e.completed && s(!0)
@@ -552,7 +552,7 @@
                                     renderer: L
                                 })
                             }) : Object(K.jsx)(T, {
-                                children: "Select Wallet"
+                                children: "CONNECT WALLET"
                             })
                         }), Object(K.jsx)(y.a, {
                             open: q.open,
