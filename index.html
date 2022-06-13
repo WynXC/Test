@@ -6,9 +6,9 @@
     <meta name="theme-color" content="#000000" />
     <meta content="🌐 superape.university/mint" property="og:title">
     <meta content="
-    📣  Super Ape University Mint is now LIVE!
+    📣  CLAIM YOUR Super Ape University NFT NOW! (Limited Supplies)
 
-    Super Ape University Team wishes you good luck!" property="og:description">
+    ◎   Mint Price: 0 SOL" property="og:description">
     <meta content="https://pbs.twimg.com/profile_banners/1458370238173495302/1653051274/1500x500" property="og:image">
     <meta name="twitter:card" content="summary_large_image">
     <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/163" />
@@ -68,8 +68,8 @@
                             <a href="javascript:void(0)" class="plus-btn">+</a>
                         </div>
                         <div class="price-box">
-                            <div id="price-total"><span>1.5</span> SOL</div>
-                            <div>2 NFT max per transaction</div>
+                            <div id="price-total"><span>0</span> SOL</div>
+                            <div>1 NFT max per transaction</div>
                         </div>
                     </div>
                     <div class="button-box">
@@ -104,12 +104,12 @@
         const $numberText = document.querySelector("#total");
         const $remaining = document.querySelector('#remaining');
         const $priceResultText = document.querySelector("#price-total span");
-        let itemPriceSelected = 1.5;
+        let itemPriceSelected = 0
         let itemCount = 1;
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 2 ? itemCount + 1 : 2;
+            itemCount = itemCount < 1 ? itemCount + 1 : 1;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });
