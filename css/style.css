@@ -1,44 +1,4 @@
-@import url("../../css2");
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
 
-body {
-    overflow-x: hidden;
-    font-family: Poppins, sans-serif;
-    background: url(https://superape.university/assets/img/layouts/apeventura.gif) 0% 0% / cover no-repeat;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    letter-spacing: 0.6px;
-    align-items: center;
-    flex-direction: column;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-header {
-    width: 80%;
-    position: fixed;
-    top: 20px;
-    padding: 0px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 100;
-}
-
-header .logo img {
-    width: 0px;
-}
 
 .social-list {
     display: flex;
@@ -70,7 +30,7 @@ header .logo img {
     font-size: 22px;
     padding: 10px;
     transition: all 0.4s ease 0s;
-    color: rgb(21, 245, 9);
+    color: rgb(254, 202, 1);
 }
 
 .social-list li a img,
@@ -140,13 +100,13 @@ header .logo img {
 .token {
     width: 85%;
     margin-top: 25px;
-    color: #FF3D00;
+    color: rgb(254, 202, 1);
 }
 
 .token-title {
     margin-top: 24px;
     margin-bottom: 8px;
-    color: #FF3D00;
+    color: rgb(254, 202, 1);
     font-weight: 500;
     font-size: 12px;
 }
@@ -160,14 +120,14 @@ header .logo img {
 .token-line .line {
     width: 100%;
     height: 10px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 6px;
 }
 
 .token-line .progress-line {
     position: absolute;
     inset: 0px;
-    background: #FF3D00;
+    background: rgb(254, 202, 1);
     height: 10px;
     border-radius: 6px;
 }
@@ -209,7 +169,7 @@ header .logo img {
     background: rgba(151, 151, 151, 0.25);
     font-size: 26px;
     font-weight: 400;
-    color: rgb(255, 255, 255);
+    color: rgb(254, 202, 1);
     padding: 10px 15px;
     border-radius: 6px;
 }
@@ -228,7 +188,7 @@ header .logo img {
     text-align: center;
     font-size: 20px;
     font-weight: 400;
-    color: rgb(255, 255, 255);
+    color: rgb(254, 202, 1);
     background: rgba(151, 151, 151, 0.25);
     border-radius: 6px;
     margin-right: 25px;
@@ -299,7 +259,7 @@ header .logo img {
 }
 
 .price {
-    color: rgb(255, 255, 255);
+    color: rgb(254, 202, 1);
     margin: 10px 0px 30px;
     display: flex;
     align-items: center;
@@ -317,23 +277,25 @@ header .logo img {
     position: relative;
     display: flex;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 6px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 32px;
     color: rgb(0, 0, 0);
-    padding: 0px 35px;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
     height: 40px;
     cursor: pointer;
     transition-duration: 0.3s;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.5px;
     margin-right: 30px;
     justify-content: center !important;
-    background: #FF3D00 !important;
+    background: rgb(255, 255, 255) !important;
 }
 
 #root button:hover {
-    background: #c44017 !important;
+    background: rgb(129, 157, 25) !important;
 }
 
 .button-box {

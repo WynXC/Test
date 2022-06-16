@@ -1,4 +1,4 @@
-﻿(this["webpackJsonpcandy-machine-mint"] = this["webpackJsonpcandy-machine-mint"] || []).push([
+(this["webpackJsonpcandy-machine-mint"] = this["webpackJsonpcandy-machine-mint"] || []).push([
     [0], {
         130: function(e, t, n) {
             "use strict";
