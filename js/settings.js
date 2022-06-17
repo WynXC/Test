@@ -1,26 +1,26 @@
 const collectionInfo = {
-    name: "Antisocial Ape Society",
+    name: "Senzoku",
     title: "{name}",
-    date: "16.06.2022",
+    date: "17.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "1.gif",
+        preview: "logo.jpg",
         favicon: "logo.jpg",
     },
     background: {
         type: "image",
-        image: "ce31a7fddef681a6619fe4bf600ef629.jpg",
+        image: "bg.jpeg",
         video: "",
         color: "#4E4E6D",
     }
 }
 const mintInfo = {
-    price: .45,
+    price: 2,
     totalSupply: 100,
-    toFixed: 2,
+    toFixed: 0,
     minUnits: 1,
     maxUnits: 3,
     askMintLoop: true,
