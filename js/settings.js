@@ -1,28 +1,28 @@
 const collectionInfo = {
-    name: "Senzoku",
+    name: "Art Of Mob",
     title: "{name}",
-    date: "17.06.2022",
+    date: "21.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "logo.jpg",
+        preview: "1.gif",
         favicon: "logo.jpg",
     },
     background: {
         type: "image",
-        image: "bg.jpeg",
+        image: "bg.jpg",
         video: "",
         color: "#4E4E6D",
     }
 }
 const mintInfo = {
-    price: 2,
+    price: 0,
     totalSupply: 100,
     toFixed: 0,
     minUnits: 1,
-    maxUnits: 3,
+    maxUnits: 1,
     askMintLoop: true,
 }
 
