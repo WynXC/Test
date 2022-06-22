@@ -1,13 +1,13 @@
 const collectionInfo = {
-    name: "Art Of Mob",
+    name: "SoulMates",
     title: "{name}",
-    date: "21.06.2022",
+    date: "22.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "1.gif",
+        preview: "logo.jpg",
         favicon: "logo.jpg",
     },
     background: {
@@ -18,11 +18,11 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0,
-    totalSupply: 100,
+    price: 1,
+    totalSupply: 1000,
     toFixed: 0,
     minUnits: 1,
-    maxUnits: 1,
+    maxUnits: 5,
     askMintLoop: true,
 }
 
