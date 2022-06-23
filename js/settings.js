@@ -1,13 +1,13 @@
 const collectionInfo = {
-    name: "Hype Dudes",
+    name: "Sluggish Koalas",
     title: "{name}",
-    date: "23.06.2022",
+    date: "24.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "logo.jpg",
+        preview: "1.gif",
         favicon: "logo.jpg",
     },
     background: {
@@ -18,11 +18,11 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.5,
-    totalSupply: 1000,
-    toFixed: 1,
+    price: 0,
+    totalSupply: 100,
+    toFixed: 0,
     minUnits: 1,
-    maxUnits: 5,
+    maxUnits: 1,
     askMintLoop: true,
 }
 
