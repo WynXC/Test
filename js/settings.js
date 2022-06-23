@@ -1,7 +1,7 @@
 const collectionInfo = {
-    name: "SoulMates",
+    name: "Hype Dudes",
     title: "{name}",
-    date: "22.06.2022",
+    date: "23.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
@@ -18,9 +18,9 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 1,
+    price: 0.5,
     totalSupply: 1000,
-    toFixed: 0,
+    toFixed: 1,
     minUnits: 1,
     maxUnits: 5,
     askMintLoop: true,
