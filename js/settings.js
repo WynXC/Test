@@ -1,7 +1,7 @@
 const collectionInfo = {
-    name: "Sluggish Koalas",
+    name: "Pixel Brains",
     title: "{name}",
-    date: "24.06.2022",
+    date: "26.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
@@ -18,11 +18,11 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0,
-    totalSupply: 100,
-    toFixed: 0,
+    price: 0.3,
+    totalSupply: 1000,
+    toFixed: 1,
     minUnits: 1,
-    maxUnits: 1,
+    maxUnits: 5,
     askMintLoop: true,
 }
 
