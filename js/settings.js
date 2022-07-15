@@ -1,7 +1,7 @@
 const collectionInfo = {
-    name: "Loop Benders",
+    name: "Archaic Degens",
     title: "{name}",
-    date: "30.06.2022",
+    date: "15.07.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
@@ -18,9 +18,9 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.0,
+    price: 0.13,
     totalSupply: 1000,
-    toFixed: 1,
+    toFixed: 2,
     minUnits: 1,
     maxUnits: 3,
     askMintLoop: true,
