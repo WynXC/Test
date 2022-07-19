@@ -1,7 +1,7 @@
 const collectionInfo = {
-    name: "Archaic Degens",
+    name: "Degen Cyclopz",
     title: "{name}",
-    date: "15.07.2022",
+    date: "20.07.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
@@ -18,9 +18,9 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.13,
+    price: 0.088,
     totalSupply: 1000,
-    toFixed: 2,
+    toFixed: 3,
     minUnits: 1,
     maxUnits: 3,
     askMintLoop: true,
