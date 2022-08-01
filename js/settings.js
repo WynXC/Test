@@ -1,13 +1,13 @@
 const collectionInfo = {
-    name: "Degen Cyclopz",
+    name: "DUST FLIP",
     title: "{name}",
-    date: "20.07.2022",
+    date: "01.08.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "logo.jpg",
+        preview: "1.gif",
         favicon: "logo.jpg",
     },
     background: {
@@ -18,9 +18,9 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.088,
+    price: 0.15,
     totalSupply: 1000,
-    toFixed: 3,
+    toFixed: 2,
     minUnits: 1,
     maxUnits: 3,
     askMintLoop: true,
