@@ -1,7 +1,7 @@
 const collectionInfo = {
-    name: "DUST FLIP",
+    name: "Nuclea",
     title: "{name}",
-    date: "01.08.2022",
+    date: "02.08.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
@@ -18,11 +18,11 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.15,
+    price: 0.67,
     totalSupply: 1000,
     toFixed: 2,
     minUnits: 1,
-    maxUnits: 3,
+    maxUnits: 1,
     askMintLoop: true,
 }
 
