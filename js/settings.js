@@ -1,13 +1,13 @@
 const collectionInfo = {
-    name: "Magic Gear NFT",
+    name: "Mutant Gargona DAO",
     title: "{name}",
-    date: "03.08.2022",
+    date: "04.08.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "1.gif",
+        preview: "logo.jpg",
         favicon: "logo.jpg",
     },
     background: {
@@ -18,7 +18,7 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.5,
+    price: 0.1,
     totalSupply: 1000,
     toFixed: 1,
     minUnits: 1,
