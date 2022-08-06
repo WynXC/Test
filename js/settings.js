@@ -1,13 +1,13 @@
 const collectionInfo = {
-    name: "Mutant Gargona DAO",
+    name: "Eclestia",
     title: "{name}",
-    date: "04.08.2022",
+    date: "06.08.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "logo.jpg",
+        preview: "1.gif",
         favicon: "logo.jpg",
     },
     background: {
@@ -18,17 +18,17 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.1,
+    price: 0.25,
     totalSupply: 1000,
-    toFixed: 1,
+    toFixed: 2,
     minUnits: 1,
-    maxUnits: 1,
+    maxUnits: 2,
     askMintLoop: true,
 }
 
 const nftsInfo = {
     active: true,
-    minValue: 0.3,
+    minValue: 0.2,
     maxTransfer: 5,
 }
 
